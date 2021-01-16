@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
         'account.apps.AccountConfig',
-        'email_login'
+        'email_login.apps.EmailLoginConfig'
 ]
 
 MIDDLEWARE = [
@@ -121,4 +121,3 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AUTH_USER_MODEL = 'login_email.CustomUser' 
